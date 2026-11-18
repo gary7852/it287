@@ -51,7 +51,7 @@ class PlayerCharacter:
                 return True
             return False
 
-    def load_from_json(self, name, file_path="Dungeon_Crawler_Organized/players.json"):
+    def load_from_json(self, name, file_path="players.json"):
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
                     npc_list = json.load(f)
@@ -75,7 +75,7 @@ class PlayerCharacter:
                 print(f"[!] Failed to load JSON: {e}")
                 return False
 
-    def save_to_json(self, file_path="Dungeon_Crawler_Organized/players.json"):
+    def save_to_json(self, file_path="players.json"):
             our_data = {
                 "name": self.name,
                 "race": "Unknown",  # Could be extended to a property

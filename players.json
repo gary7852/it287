@@ -3,53 +3,53 @@
     "name": "Mickey_Mouse",
     "race": "Unknown",
     "strength": "14",
-    "agility": "8",
-    "constitution": "11",
+    "agility": "11",
+    "constitution": "8",
     "armor": "2",
     "current_hp": "20"
   },
   {
     "name": "Frank",
     "race": "Unknown",
-    "strength": "13",
+    "strength": "11",
     "agility": "8",
-    "constitution": "15",
+    "constitution": "8",
     "armor": "2",
     "current_hp": "20"
   },
   {
     "name": "Homer_Simpson",
     "race": "Unknown",
-    "strength": "8",
-    "agility": "8",
-    "constitution": "11",
+    "strength": "14",
+    "agility": "10",
+    "constitution": "10",
     "armor": "2",
     "current_hp": "28"
   },
   {
     "name": "Pikachu",
     "race": "Unknown",
-    "strength": "16",
-    "agility": "12",
-    "constitution": "9",
+    "strength": "10",
+    "agility": "13",
+    "constitution": "12",
     "armor": "2",
     "current_hp": "16"
   },
   {
     "name": "Mario",
     "race": "Unknown",
-    "strength": "9",
+    "strength": "12",
     "agility": "8",
-    "constitution": "10",
+    "constitution": "12",
     "armor": "2",
     "current_hp": "28"
   },
   {
     "name": "Batman",
     "race": "Unknown",
-    "strength": "13",
-    "agility": "11",
-    "constitution": "8",
+    "strength": "9",
+    "agility": "16",
+    "constitution": "10",
     "armor": "2",
     "current_hp": "20"
   }
