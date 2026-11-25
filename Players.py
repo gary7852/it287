@@ -24,27 +24,34 @@ class PlayerCharacter:
 
 
     def roll_stats(self):
+        p("Rolling Stats")
         self.strength = roll3d6stat()
         self.constitution = roll3d6stat()
         self.agility = roll3d6stat()
         self.current_hp = self.get_max_hp()
 
     def get_max_hp(self):
+        p("Calculating Max HP")
         return self.constitution * 2
 
     def get_damage_max(self):
+        p("Calculating Max Damage")
         return int(self.strength / 2)
 
     def take_damage(self, enemy):
+        p("Calculating Damage")
         rolls,damage = roll_dice(enemy.get_damage_max(),count=1)
+        
         
         self.current_hp = self.current_hp - damage + self.armor
         print(f"{self.name} took {damage} damage - armor absorbed {self.armor} hit points")
+        p(f"took {damage} damage")
 
     def heal(self):
             rolls, heal = roll_dice(5)
             self.current_hp = self.current_hp + heal
             print(f"{self.name} healed for {heal} hit points.")
+            p(f"Healed for {heal} HP")
 
     def is_knocked_out(self):
             if self.current_hp < 1:
